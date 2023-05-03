@@ -1,0 +1,6 @@
+<% if user_signed_in? %> 
+ <div> Welcome <%= current_user.email %> </div> 
+<% else %>
+  <%#= button_to "Sign in", new_user_session_path %> 
+<% end %>
+<h1>Hello Developer!</h1>
