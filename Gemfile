@@ -45,6 +45,7 @@ gem "bootsnap", require: false
 
 gem "devise"
 gem 'devise-bootstrap-views', '~> 1.0'
+gem "rolify"
 
 # Use Sass to process CSS
 # gem "sassc-rails"
